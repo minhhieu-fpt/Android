@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Item1"></item>
+    <item android:id="@+id/h"
+        android:title="Item2"></item>
+    <item android:id="@+id/ho"
+        android:title="Item3"></item>
+    <item android:id="@+id/hom"
+        android:title="Item4"></item>
+    <item android:id="@+id/homee"
+        android:title="Item5"></item>
+
+</menu>

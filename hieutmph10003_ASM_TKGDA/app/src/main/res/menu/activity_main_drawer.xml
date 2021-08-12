@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_monetization_on_black_18dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_attach_money_black_18dp"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_signal_cellular_alt_black_18dp"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:title="Khác">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_gioithieu"
+                    android:icon="@drawable/baseline_error_outline_black_18dp"
+                    android:title="@string/menu_gioithieu" />
+
+                <item
+                    android:id="@+id/nav_thoat"
+                    android:icon="@drawable/baseline_exit_to_app_black_18dp"
+                    android:title="@string/menu_thoat" />
+            </menu>
+        </item>
+    </group>
+</menu>

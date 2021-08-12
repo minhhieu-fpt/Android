@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab_7_TKGDA</string>
+    <string name="title_activity__bai_4">Activity_Bai_4</string>
+    <string name="title_home">Mới nhất</string>
+    <string name="title_dashboard">Yêu thích</string>
+    <string name="title_notifications">Ngẫu nhiên</string>
+</resources>

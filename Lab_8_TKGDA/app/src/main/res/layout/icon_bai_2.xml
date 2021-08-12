@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/anh_b2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ahri"/>
+
+        <View
+            android:id="@+id/backgop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:background="#4D070303"/>
+        <TextView
+            android:id="@+id/ten_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahri"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="22dp"
+            android:textColor="#ECECEC"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/favourite_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/x2"
+            android:paddingRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/share_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_share_black_18dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

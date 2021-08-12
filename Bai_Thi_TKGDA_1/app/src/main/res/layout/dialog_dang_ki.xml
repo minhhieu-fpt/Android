@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"/>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dk_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="19">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textussername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dk_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="19">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textpass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dk_nhap_lai_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="19">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textpasslai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Nhập lại Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+        <Button
+            android:id="@+id/dangki_dialog"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÍ"/>
+
+        <Button
+            android:id="@+id/huy_dialog"
+            android:layout_width="130dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="wrap_content"
+            android:text="HỦY"/>
+    </LinearLayout>
+</LinearLayout>

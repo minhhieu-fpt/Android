@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Bai_3">
+
+    <TextView
+
+        android:id="@+id/l1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:background="#FF9800"
+        android:text="50%-50%"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="50%">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/l1"
+        android:background="#E91E63"
+        android:text="20%-50%"
+        android:textColor="#423737"
+        android:textSize="25sp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/l3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/l2"
+        android:layout_toRightOf="@id/l1"
+        android:background="#673AB7"
+        android:text="30%-50%"
+        android:textColor="#423737"
+        android:textSize="25sp"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/l1"
+        android:background="#8BC34A"
+        android:text="50%-100%"
+        android:textColor="#423737"
+        android:textSize="25sp"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="100%" />
+
+
+</androidx.percentlayout.widget.PercentRelativeLayout>

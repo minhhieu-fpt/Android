@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab_8_TKGDA</string>
+    <string name="title_activity__bai_1">Activity_Bai_1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">First</string>
+    <string name="menu_gallery">Second</string>
+    <string name="menu_slideshow">Third</string>
+    <string name="menu_4">Sub item 1</string>
+    <string name="menu_5">Sub item 2</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_hieutmph10003__a_s_m__t_k_g_d">hieutmph10003_ASM_TKGDA</string>
+</resources>
